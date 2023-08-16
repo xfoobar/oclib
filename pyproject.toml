@@ -14,6 +14,9 @@ license = {text = "MIT"}
 requires = ["pdm-backend"]
 build-backend = "pdm.backend"
 
+[project.urls]
+"Homepage" = "https://github.com/xfoobar/oclib"
+
 [tool.pdm.dev-dependencies]
 dev = [
     "pip>=23.2.1",
